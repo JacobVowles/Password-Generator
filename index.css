@@ -1,0 +1,38 @@
+body
+{
+	background-color: #F5F5F5;
+	margin: 0;
+	padding: 0;
+}
+.navbar
+{
+	margin: 0;
+	display: flex;
+	background-color: #444444;
+	justify-content: space-between;
+}
+
+.cat-container
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#btnCatFact
+{
+	display:flex;
+	align-items:center;
+	color:red;
+	
+}
+.container
+{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h2
+{
+	color: #DDDDDD
+}

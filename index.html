@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Great Password Generator</title>
+<meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1">
+<link rel= "styleSheet" href = "index.css"/>
+
+</head>
+<body>
+
+<div class="navbar">
+<h2>Generative Media</h2>
+
+</div>
+
+<div class="container">
+<h1>Password Generator!</h1>
+<h3 id="newPswd">Choose how long you want your password!</h3>
+<input id="rangeCheck" type="range" min="5" max="40" value="5" oninput="rangeValue.innerText = this.value">
+<p id="rangeValue">5</p>
+</div>
+
+<div class="cat-container">
+<h4 id="catFact"></h4>
+<button id="btnCopy">Copy Password</button>
+</div>
+
+<footer></footer>
+<script src="script.js"></script>
+</body>
+</html>
